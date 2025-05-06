@@ -4,7 +4,7 @@ import "./App.css"
 import rtx from '/rtx5090.jpg'
 import razer from '/razer.jpg'
 import rog from '/rog.jpg'
-import ryzen from '/ryzen.jpg'
+import ryzen from '/ryzen.jpeg'
 import victus from '/victus.jpg'
 
 function App() {
@@ -91,6 +91,12 @@ function App() {
 
                     <div className="tarjetaProducto">
                         <img src={victus}/>
+                        <h3>Victus</h3>
+                        <p className="precio"></p>
+                        <button className="botonCarrito">comprar</button>
+                    </div>
+                    <div className="tarjetaProducto">
+                        <img src={ryzen}/>
                         <h3>Victus</h3>
                         <p className="precio"></p>
                         <button className="botonCarrito">comprar</button>
