@@ -3,6 +3,9 @@ import axios from "axios"
 import "./App.css"
 import rtx from '/rtx5090.jpg'
 import razer from '/razer.jpg'
+import rog from '/rog.jpg'
+import ryzen from '/ryzen.jpg'
+import victus from '/victus.jpg'
 
 function App() {
     const [mostrarModal, setMostrarModal] = useState(false)
@@ -55,7 +58,7 @@ function App() {
 
             {/* Banner principal */}
             <div className="banner">
-                <h1>lo mejor de pc calid precio</h1>
+                <h1>lo mejor de pc calidad precio</h1>
                 <p>El poder definitivo para overclockers y entusiastas</p>
             </div>
 
@@ -69,28 +72,28 @@ function App() {
                         <img src={rtx}/>
                         <h3>RTX 5090</h3>
                         <p className="precio"></p>
-                        <button className="botonCarrito">Añadir al carrito</button>
+                        <button className="botonCarrito">comprar</button>
                     </div>
 
                     <div className="tarjetaProducto">
                         <img src={razer}/>
                         <h3>Razer Blade 17</h3>
                         <p className="precio"></p>
-                        <button className="botonCarrito">Añadir al carrito</button>
+                        <button className="botonCarrito">comprar</button>
                     </div>
 
                     <div className="tarjetaProducto">
-                        <img src={rtx}/>
-                        <h3>RTX 5090</h3>
+                        <img src={rog}/>
+                        <h3>Rog Strix G16</h3>
                         <p className="precio"></p>
-                        <button className="botonCarrito">Añadir al carrito</button>
+                        <button className="botonCarrito">comprar</button>
                     </div>
 
                     <div className="tarjetaProducto">
-                        <img src={razer}/>
-                        <h3>Razer Blade 15</h3>
+                        <img src={victus}/>
+                        <h3>Victus</h3>
                         <p className="precio"></p>
-                        <button className="botonCarrito">Añadir al carrito</button>
+                        <button className="botonCarrito">comprar</button>
                     </div>
                     
                 </div>
