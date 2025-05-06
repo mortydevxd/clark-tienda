@@ -97,7 +97,7 @@ function App() {
                     </div>
                     <div className="tarjetaProducto">
                         <img src={ryzen}/>
-                        <h3>Victus</h3>
+                        <h3>Ryzen</h3>
                         <p className="precio"></p>
                         <button className="botonCarrito">comprar</button>
                     </div>
