@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+.contenedor {
+  width: 100%;
+}
+
+/* kabrera */
+.cabecera {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #000;
+  color: white;
+}
+
+.logo {
+  background-color: #ff0000;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+}
+
+.buscador {
+  display: flex;
+}
+
+.buscador input {
+  padding: 5px 10px;
+  border: none;
+  width: 300px;
+}
+
+.buscador button {
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.botonSesion {
+  background-color: transparent;
+  color: white;
+  border: 1px solid #444;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.banner {
+  background: linear-gradient(to right, #1a1a4a, #4a1a4a);
+  color: white;
+  padding: 50px 20px;
+  text-align: left;
+}
+
+.banner h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.seccionProductos {
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.seccionProductos h2 {
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.listaProductos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.tarjetaProducto {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tarjetaProducto img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.tarjetaProducto h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.precio {
+  color: #ff0000;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.botonCarrito {
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  padding: 8px 0;
+  width: 100%;
+  cursor: pointer;
+}
+
+.seccionContacto {
+  background-color: #f0f0f0;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.formularioContacto {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.campoFormulario {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.campoFormulario label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.campoFormulario input,
+.campoFormulario textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.botonEnviar {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.piePagina {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.fondoModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 90%;
+  max-width: 400px;
+  position: relative;
+}
+
+.cerrarModal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.formularioLogin {
+  margin-top: 20px;
+}
+
+.botonesFormulario {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.botonIniciar {
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.botonRegistrar {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .cabecera {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .buscador {
+    width: 100%;
+  }
+
+  .buscador input {
+    width: 100%;
+  }
+
+  .listaProductos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
